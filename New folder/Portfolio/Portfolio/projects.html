@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============ META / SEO ============ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Kaushindar Chaudhary</title>
+  <meta name="description" content="Explore projects built by Kaushindar Chaudhary including Eatofine, Grapes Cab, PujaShoppe, a Doctor Appointment System and an AI assistant.">
+  <meta name="keywords" content="Kaushindar Chaudhary Projects, Spring Boot Projects, Java Projects, AI Projects, Eatofine, Grapes Cab, PujaShoppe">
+  <meta name="author" content="Kaushindar Chaudhary">
+  <link rel="canonical" href="https://kaushindar.dev/projects.html">
+
+  <meta property="og:title" content="Projects | Kaushindar Chaudhary">
+  <meta property="og:description" content="A showcase of backend, full-stack and AI projects built end-to-end.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kaushindar.dev/projects.html">
+  <meta property="og:image" content="assets/images/profile.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Projects | Kaushindar Chaudhary">
+  <meta name="twitter:description" content="A showcase of backend, full-stack and AI projects built end-to-end.">
+
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       PAGE LOAD ANIMATION (CSS-only, fades out automatically)
+       ============================================================ -->
+  <div class="page-loader" aria-hidden="true">
+    <div class="loader-mark"><span>&lt;</span><span>/</span><span>&gt;</span></div>
+  </div>
+
+  <div class="bg-fx" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       ============================================================ -->
+  <header>
+    <nav class="navbar" aria-label="Primary navigation">
+      <div class="container nav-inner">
+        <a href="index.html" class="logo"><span class="bracket">&lt;</span>Kaushindar<span class="dot">/</span><span class="bracket">&gt;</span></a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="about.html#education">Education</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="assets/resume/Kaushindar_Resume.pdf" class="btn-resume-nav" download>Resume</a>
+          <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </label>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         PAGE HERO
+         ============================================================ -->
+    <section class="page-hero reveal">
+      <div class="container">
+        <span class="mono-label" style="display:flex; justify-content:center;">projects</span>
+        <h1>Systems I've <span class="gradient-text">designed and shipped</span></h1>
+        <p>Five projects spanning food delivery, ride-hailing, e-commerce, healthcare scheduling and applied AI.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS GRID
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="projects-grid">
+
+          <article class="project-card glass-panel reveal-scale">
+            <div class="project-thumb">
+              <img src="assets/images/project1.jpg" alt="Eatofine food delivery platform interface" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="mono-label">food_delivery</span>
+              <h3>Eatofine</h3>
+              <p>A complete food delivery platform covering customer ordering, an admin panel, a vendor panel,
+                and a dedicated delivery-partner app. Integrated Google Maps for live tracking and a payment
+                gateway for end-to-end checkout.</p>
+              <div class="project-tags">
+                <span>Laravel</span><span>Flutter</span><span>MySQL</span><span>Google Maps</span><span>Payment Gateway</span><span>Admin Panel</span><span>Vendor Panel</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-panel reveal-scale delay-1">
+            <div class="project-thumb">
+              <img src="assets/images/project2.jpg" alt="Grapes Cab ride-hailing platform interface" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="mono-label">ride_hailing</span>
+              <h3>Grapes Cab</h3>
+              <p>A ride-hailing platform built on Java and Spring Boot, with REST APIs handling authentication,
+                live location tracking, trip booking, and map-based routing for drivers and riders.</p>
+              <div class="project-tags">
+                <span>Java</span><span>Spring Boot</span><span>MySQL</span><span>REST APIs</span><span>Authentication</span><span>Maps</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-panel reveal-scale delay-2">
+            <div class="project-thumb">
+              <img src="assets/images/project3.jpg" alt="PujaShoppe e-commerce admin dashboard" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="mono-label">e_commerce</span>
+              <h3>PujaShoppe</h3>
+              <p>An e-commerce platform with a full admin dashboard for managing inventory, processing payments,
+                and tracking orders, built on a Spring Boot and MySQL backend.</p>
+              <div class="project-tags">
+                <span>Java</span><span>Spring Boot</span><span>MySQL</span><span>Admin Dashboard</span><span>Payment</span><span>Inventory</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-panel reveal-scale delay-3">
+            <div class="project-thumb">
+              <img src="assets/images/project4.jpg" alt="Doctor appointment booking system interface" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="mono-label">healthcare</span>
+              <h3>Doctor Appointment System</h3>
+              <p>An appointment scheduling system with separate modules for admins, doctors and patients —
+                handling booking, availability, and visit records.</p>
+              <div class="project-tags">
+                <span>Java</span><span>Spring Boot</span><span>Appointment Booking</span><span>Admin</span><span>Doctor</span><span>Patient Module</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-panel reveal-scale delay-4">
+            <div class="project-thumb">
+              <img src="assets/images/project5.jpg" alt="Smart AI Assistant chatbot interface" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="mono-label">ai_agents</span>
+              <h3>Smart AI Assistant</h3>
+              <p>An AI agent built in Python on top of an LLM, designed to automate repetitive support
+                conversations through a conversational chatbot interface.</p>
+              <div class="project-tags">
+                <span>Python</span><span>LLM</span><span>Automation</span><span>Chatbot</span><span>AI Agents</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT CTA
+         ============================================================ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="glass-panel reveal-scale" style="padding:var(--space-xl) var(--space-md); text-align:center;">
+          <h2>Have something similar in mind?</h2>
+          <p style="max-width:480px; margin:var(--space-sm) auto 0;">I'm open to new backend, full-stack or AI-integration work.</p>
+          <div style="margin-top:var(--space-md);">
+            <a href="contact.html" class="btn btn-primary">Let's talk</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span class="bracket">&lt;</span>Kaushindar<span class="dot">/</span><span class="bracket">&gt;</span></a>
+          <p>Software Engineer &amp; AI Engineer building dependable backend systems — and teaching others to do the same.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="index.html#experience">Backend Development</a></li>
+            <li><a href="index.html#skills">AI Integration</a></li>
+            <li><a href="index.html#experience">Technical Training</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="https://linkedin.com/in/kaushindar" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/kaushindar" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://leetcode.com/kaushindar" target="_blank" rel="noopener">LeetCode</a></li>
+            <li><a href="https://hackerrank.com/kaushindar" target="_blank" rel="noopener">HackerRank</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kaushindar Chaudhary. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/kaushindar" target="_blank" rel="noopener" aria-label="Instagram" class="link-underline">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/910000000000" class="float-btn whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-10.4 17.9L.4 24l6.3-1.65A12 12 0 1 0 12 0zm6.95 16.95c-.3.85-1.7 1.6-2.65 1.75-.7.1-1.55.15-2.5-.15-.6-.2-1.35-.4-2.3-.85-4.05-1.75-6.7-5.8-6.9-6.05-.2-.25-1.65-2.2-1.65-4.2 0-2 1.05-2.95 1.4-3.35.35-.4.8-.5 1.05-.5h.75c.25 0 .55-.05.85.65.3.7 1.05 2.5 1.15 2.7.1.2.15.4.05.65-.1.25-.15.4-.35.6-.2.25-.4.55-.55.7-.2.2-.4.45-.2.85.7 1.4 1.6 2.45 2.85 3.3 1.25.85 2 1.05 2.3 1.2.3.1.5.1.7-.05.2-.2.85-.95 1.1-1.3.25-.35.5-.3.8-.2.3.1 2.05.95 2.4 1.15.35.2.6.3.65.45.05.15.05.85-.25 1.7z"/></svg>
+  </a>
+
+  <a href="#" class="float-btn back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg>
+  </a>
+
+</body>
+</html>
